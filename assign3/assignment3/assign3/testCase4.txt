@@ -1,0 +1,242 @@
+................................Inside create schema.....................
+...............................Inside Init Record manager..................
+...............................Inside create Table method..................
+inside serialize schema;----------------------FILE WILL BE CREATED------------------- 
+ INSIDE FP NOT NULL
+---------------RC--------0---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 1-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+----------------------FILE WRITE COMPLETE--------------
+...............INSIDE INIT bufferpool........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 1-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+filepages::1
+Totalpages::2
+pages to create: 1
+ReadBlock RC:2
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+
+----------------------------------inside delete record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+
+----------------------------------inside delete record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+
+----------------------------------inside delete record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+
+----------------------------------inside delete record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+
+----------------------------------inside delete record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------------------inside update record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------------------inside update record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------------------inside update record method......................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside close table........................
+...............INSIDE INIT bufferpool........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+
+...........................................inside getRecord........................
+filepages::3
+Totalpages::2
+-----------------------NUMBER OF PAGES IS NOT GREATER THAN THE FILE PAGES-----------------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+...........................................inside createRecord........................
+after free value of 2nd argument;
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected true: compare records
+1
+1
+02
+02
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <1> and was <1>: attr same
+iiiiÿ
+iiiiÿ
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <iiiiÿ> and was <iiiiÿ>: attr same
+6
+6
+02
+02
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <6> and was <6>: attr same
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+...........................................inside createRecord........................
+after free value of 2nd argument;
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected true: compare records
+2
+2
+ 2
+ 2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <2> and was <2>: attr same
+iiiiÿ
+iiiiÿ
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <iiiiÿ> and was <iiiiÿ>: attr same
+6
+6
+ 2
+ 2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <6> and was <6>: attr same
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+...........................................inside createRecord........................
+after free value of 2nd argument;
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected true: compare records
+3
+3
+,2
+,2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <3> and was <3>: attr same
+iiiiÿ
+iiiiÿ
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <iiiiÿ> and was <iiiiÿ>: attr same
+6
+6
+,2
+,2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <6> and was <6>: attr same
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+...........................................inside createRecord........................
+after free value of 2nd argument;
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected true: compare records
+4
+4
+€<2
+€<2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <4> and was <4>: attr same
+ddddÿ
+ddddÿ
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <ddddÿ> and was <ddddÿ>: attr same
+3
+3
+€<2
+€<2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <3> and was <3>: attr same
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+...........................................inside createRecord........................
+after free value of 2nd argument;
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected true: compare records
+5
+5
+ðL2
+ðL2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <5> and was <5>: attr same
+eeeeÿ
+eeeeÿ
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <eeeeÿ> and was <eeeeÿ>: attr same
+5
+5
+ðL2
+ðL2
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L345-23:16:10] OK: expected <5> and was <5>: attr same
+...........................................inside close table........................
+------------------------FILE DELETED----------------------------
+file deleted.........
+...............Inside shutdown record manager............
+[test_assign3_1.c-test creating a new table and insert,update,delete tuples-L353-23:16:10] OK: finished test
+

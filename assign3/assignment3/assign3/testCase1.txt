@@ -1,0 +1,20 @@
+................................Inside create schema.....................
+...........................................inside createRecord........................
+after free value of 2nd argument;
+1
+inside value equals: 0
+Left: 1 ------- right:1,
+[test_assign3_1.c-test creating records and manipulating attributes-L112-23:06:37] OK: expected true: first attr
+aaaa
+[test_assign3_1.c-test creating records and manipulating attributes-L116-23:06:37] OK: expected true: second attr
+3
+inside value equals: 0
+Left: 3 ------- right:3,
+[test_assign3_1.c-test creating records and manipulating attributes-L120-23:06:37] OK: expected true: third attr
+4
+inside value equals: 0
+Left: 4 ------- right:4,
+[test_assign3_1.c-test creating records and manipulating attributes-L126-23:06:37] OK: expected true: third attr after setting
+----------------------------------------inside free Record............................
+[test_assign3_1.c-test creating records and manipulating attributes-L130-23:06:37] OK: finished test
+

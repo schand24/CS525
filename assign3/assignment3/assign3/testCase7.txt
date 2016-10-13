@@ -1,0 +1,625 @@
+................................Inside create schema.....................
+...............................Inside Init Record manager..................
+...............................Inside create Table method..................
+inside serialize schema;----------------------FILE WILL BE CREATED------------------- 
+ INSIDE FP NOT NULL
+---------------RC--------0---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 1-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+----------------------FILE WRITE COMPLETE--------------
+...............INSIDE INIT bufferpool........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 1-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+filepages::1
+Totalpages::2
+pages to create: 1
+ReadBlock RC:2
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside close table........................
+...............INSIDE INIT bufferpool........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+...........................................inside createRecord........................
+.................................Insde Start scan method.....................................
+...........................................inside next........................
+
+...........................................inside getRecord........................
+filepages::3
+Totalpages::2
+-----------------------NUMBER OF PAGES IS NOT GREATER THAN THE FILE PAGES-----------------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+1
+inside value equals: 0
+Left: 2 ------- right:1,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+2
+inside value equals: 0
+Left: 2 ------- right:2,
+...........................................inside createRecord........................
+after free value of 2nd argument;
+[test_assign3_1.c-test creating a new table and inserting tuples-L568-23:14:17] OK: expected true: compare records
+2
+2
+ÐJ½
+ÐJ½
+[test_assign3_1.c-test creating a new table and inserting tuples-L568-23:14:17] OK: expected <2> and was <2>: attr same
+bbbbÿ
+bbbbÿ
+[test_assign3_1.c-test creating a new table and inserting tuples-L568-23:14:17] OK: expected <bbbbÿ> and was <bbbbÿ>: attr same
+2
+2
+ÐJ½
+ÐJ½
+[test_assign3_1.c-test creating a new table and inserting tuples-L568-23:14:17] OK: expected <2> and was <2>: attr same
+...........................................inside next........................
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+3
+inside value equals: 0
+Left: 2 ------- right:3,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+4
+inside value equals: 0
+Left: 2 ------- right:4,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+5
+inside value equals: 0
+Left: 2 ------- right:5,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+6
+inside value equals: 0
+Left: 2 ------- right:6,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+7
+inside value equals: 0
+Left: 2 ------- right:7,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+8
+inside value equals: 0
+Left: 2 ------- right:8,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+9
+inside value equals: 0
+Left: 2 ------- right:9,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+10
+inside value equals: 0
+Left: 2 ------- right:10,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+0
+inside value equals: 0
+Left: 2 ------- right:0,
+...........................................inside closeScan........................
+...........................................inside createRecord........................
+.................................Insde Start scan method.....................................
+...........................................inside next........................
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+aaaaÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+bbbbÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+ccccÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+ddddÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+eeeeÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+ffffÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+ggggÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+hhhhÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+iiiiÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+jjjjÿ
+inside value equals: 1
+inside dt_string;0
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+
+inside value equals: 1
+inside dt_string;0
+...........................................inside closeScan........................
+.................................Insde Start scan method.....................................
+...........................................inside next........................
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+3
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+2
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+1
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+3
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+5
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside next........................
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+1
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+3
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+3
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+2
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+5
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside createRecord........................
+after free value of 2nd argument;
+...........................................inside next........................
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+0
+...........................................inside closeScan........................
+[test_assign3_1.c-test creating a new table and inserting tuples-L608-23:14:17] OK: expected true: not greater than four
+[test_assign3_1.c-test creating a new table and inserting tuples-L609-23:14:17] OK: expected true: greater than four
+[test_assign3_1.c-test creating a new table and inserting tuples-L610-23:14:17] OK: expected true: greater than four
+...........................................inside close table........................
+------------------------FILE DELETED----------------------------
+file deleted.........
+...............Inside shutdown record manager............
+----------------------------------------inside free Record............................
+[test_assign3_1.c-test creating a new table and inserting tuples-L621-23:14:17] OK: finished test
+
+................................Inside create schema.....................
+...............................Inside Init Record manager..................
+...............................Inside create Table method..................
+inside serialize schema;----------------------FILE WILL BE CREATED------------------- 
+ INSIDE FP NOT NULL
+---------------RC--------0---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 1-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+----------------------FILE WRITE COMPLETE--------------
+...............INSIDE INIT bufferpool........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 1-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+filepages::1
+Totalpages::2
+pages to create: 1
+ReadBlock RC:2
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+after free value of 2nd argument;
+----------------------FILE WRITE COMPLETE--------------
+...........................................inside createRecord........................
+.................................Insde Start scan method.....................................
+.................................Insde Start scan method.....................................
+...........................................inside next........................
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+
+...........................................inside getRecord........................
+---------------------FILE NAME IS : test_table_r--------------------------------
+----------------------TOTAL PAGES: 3-----------------------------
+--------------------CURRENT POSITION IS: 0-------------------------
+-----------------------------READING COMPLETE---------------------------2
+ReadBlock RC:0
+----------------------FILE WRITE COMPLETE--------------
+0
+inside value equals: 0
+Left: 3 ------- right:0,
+...........................................inside next........................
+...........................................inside next........................
+[test_assign3_1.c-test running muliple scans -L251-23:14:17] OK: expected true: scans returned same number of tuples
+...........................................inside closeScan........................
+...........................................inside closeScan........................
+...........................................inside close table........................
+------------------------FILE DELETED----------------------------
+file deleted.........
+...............Inside shutdown record manager............
+[test_assign3_1.c-test running muliple scans -L263-23:14:17] OK: finished test
+

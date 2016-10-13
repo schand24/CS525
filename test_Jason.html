@@ -1,0 +1,33 @@
+<html>
+
+	<head>
+		<script type="javascript">
+			
+		</script>	
+	</head>
+
+	<body>
+		<h2 style="text-align:center">recipie<h2>
+		<div id="id01"></div>
+
+		<script>
+			var xmlhttp = new XMLHttpRequest();
+			var url = "ms.txt";
+			xmlhttp.onreadystatechange = function() {
+			var x;
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+		        var myArr = JSON.parse(xmlhttp.responseText);
+				for(var i=0;i<myArr[0]["products"].length;i++)
+				{
+					x += myArr[0]["products"][i].name;	
+				}	
+				alert(""+x);	        
+			}
+			}
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
+			document.getElementById("id01").innerHTML = out;
+</script>
+
+	</body>
+</html>

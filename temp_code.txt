@@ -1,0 +1,16 @@
+if(pageNum > 0)
+	{
+		newSize = (pageNum+1)*PAGE_SIZE;
+		printf("---------------newSize--------------%d-----\n",newSize);
+		if(memPage != NULL)
+		{
+			memPage = (SM_PageHandle) realloc(memPage,newSize);
+			
+		}
+		
+		for(i=fHandle->curPagePos+1; i<newSize;i++)
+		{
+			memPage[i] = (i % 10) +'0';
+			printf("mempage....%c----\n",memPage[i]);
+		}
+	}	

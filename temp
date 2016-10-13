@@ -1,0 +1,9 @@
+
+		if(PAGE_SIZE != fread(emptyString,1,PAGE_SIZE,fp))
+		{
+			printf("fread() failed:: ");
+		}				
+		//printf("&emptystring  :: %p",&emptyString);
+		//ch = fputc(emptyString,fp);
+		ch = fwrite(emptyString,PAGE_SIZE,1,fp);
+		//printf("fwirte() returns: %d",ch);
